@@ -1,0 +1,141 @@
+
+#home{
+    background: var(--gray-dark-default, #030712);
+    padding: 166px 80px 96px 80px;
+}
+.home-container{
+    display: flex;
+    padding: 0 0 0 32px;
+    gap: 48px;
+}
+
+.home-text{
+    max-width: 66%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.home-text h1{
+    font-size: 60px;
+    color: #F9FAFB;
+}
+.home-text p{
+    font-size: 16px;
+    color: #D1D5DB;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.home-text-location{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.home-text-location img{
+    width: 24px;
+    height: 24px;
+}
+.home-available{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.home-available img{
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+}
+
+.home-text1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.home-text2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.home-social-link img{
+    width: 24px;
+    height: 24px;
+}
+
+.home-social-link{
+    display: flex;
+}
+.home-social-link a{
+    padding: 6px;
+    border-radius: 8px;
+    display: flex;
+}
+.home-social-link a:hover{
+    background: var(--gray-dark-100, #1F2937);
+    padding: 6px;
+}
+.home-social-link a:active{
+    background: var(--gray-dark-200, #374151);
+}
+
+.pic-container1{
+    width: 320px;
+    height: 360px;
+}
+.pic-container2 {
+    display: none;
+    width: 280px;
+    height: 300px;
+}
+@media (max-width:1366px) {
+    #home{
+        padding: 166px 40px 96px 40px;
+    }
+}
+
+@media (max-width:1250px){
+    #home{
+        padding: 166px 32px 96px 0px;
+    }
+}
+
+@media (max-width:1024px) {
+    .home-text h1{
+        font-size: 42px;
+    }
+}
+
+@media (max-width:768px){
+    #home {
+        padding: 134px 16px 64px 0px;
+    }
+
+    .home-container{
+        padding: 0 0 0 16px;
+    }
+
+    .home-container{
+        flex-direction: column-reverse;
+    }
+    .home-text{
+        max-width: 100%;
+    }
+    .home-text h1{
+        font-size: 36px;
+    }
+
+    .home-image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic-container1{
+        display: none;
+    }
+
+    .pic-container2 {
+        display: block;
+    }
+}

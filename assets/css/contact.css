@@ -1,0 +1,152 @@
+#contact{
+    padding: 96px 80px;
+    background-color: #030712;
+}
+
+.contact-head h4{
+    padding: 4px 20px;
+    background-color: #374151;
+    border-radius: 12px;
+    width: fit-content;
+    margin: auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+}
+.contact-head p{
+    color: #D1D5DB;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 576px;
+    margin: auto;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.contact-container{
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.contact-email-phone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email-phone {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.email-phone p{
+    font-size: 36px;
+    line-height: 40px; 
+    color: #F9FAFB;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+}
+.email-phone img{
+    width: 32px;
+    height: 32px;
+}
+.email-phone button{
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+}
+.email-phone button:hover{
+    background-color: #1F2937;
+}
+.email-phone button:active{
+    background-color: #374151;
+}
+
+.contact-platforms{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.contact-platforms p{
+    font-size: 16px;
+    color: #D1D5DB;
+    line-height: 24px;
+}
+
+.contact-link-platform{
+    display: flex;
+    justify-content: center;
+}
+.contact-link-platform a{
+    padding: 6px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.contact-link-platform a:hover{
+    background-color: #1F2937;
+}
+.contact-link-platform a:active{
+    background-color: #374151;
+}
+.contact-link-platform img{
+    width: 24px;
+    height: 24px;
+}
+
+/* footer */
+footer {
+    padding: 24px 80px;
+    background-color: #111827;
+    text-align: center;
+}
+footer p{
+    color: #D1D5DB;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    margin-right: 8px;
+}
+footer a{
+    color: #D1D5DB;
+    font-size: 14px;
+    margin: 0 4px;
+}
+footer p span{
+    color: #EF4444;
+}
+
+
+@media (max-width:768px) {
+    #contact {
+        padding: 64px 0px;
+    }
+    .email-phone p{
+        font-size: 18px;
+    }
+
+    .contact-container {
+        padding: 0px 16px;
+        gap: 24px;
+    }
+
+    .email-phone img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer{
+        padding: 24px 0;
+    }
+}
