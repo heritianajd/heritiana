@@ -141,6 +141,9 @@ footer p span{
         gap: 24px;
     }
 
+    .email-phone{
+        gap: 5px;
+    }
     .email-phone img {
         width: 24px;
         height: 24px;

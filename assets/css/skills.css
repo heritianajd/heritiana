@@ -95,6 +95,10 @@
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 18px;
     } */
+    .skills-technologie-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 18px;
+    }
 
     .skills-head p{
         font-size: 18px;

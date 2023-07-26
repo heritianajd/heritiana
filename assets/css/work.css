@@ -120,6 +120,11 @@
 .work-row-rigth{
     border-radius: 0 12px 12px 0;
 }
+
+.link-picture-work img{
+    border-radius: 12px!important;
+    object-fit: cover;
+}
 @media (max-width:1366px) {
   
 }
