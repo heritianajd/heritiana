@@ -97,20 +97,20 @@
     gap: 8px;
 }
 
-.wingie{
+.link-projects{
     width: fit-content;
     padding: 6px;
     display: flex;
     border-radius: 8px;
 }
-.wingie img{
+.link-projects img{
     width: 24px;
     height: 24px;
 }
-.wingie:hover{
+.link-projects:hover{
     background: #111827;
 }
-.wingie:active{
+.link-projects:active{
     background-color: #374151;
 }
 
@@ -124,6 +124,10 @@
 .link-picture-work img{
     border-radius: 12px!important;
     object-fit: cover;
+}
+
+.link-projects-container{
+    display: flex;
 }
 @media (max-width:1366px) {
   
