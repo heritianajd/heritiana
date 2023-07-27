@@ -91,10 +91,8 @@
         padding: 0 16px;
         gap: 24px;
     }
-    /* .skills-technologie-container{
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 18px;
-    } */
+    
+    
     .skills-technologie-container{
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 18px;
