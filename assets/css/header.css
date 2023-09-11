@@ -84,6 +84,22 @@ header nav{
     font-size: 16px;
 }
 
+.link a::after{
+    content: '';
+    display: block;
+    width: 0px;
+    margin: 5px auto 0 auto;
+    height: 2px;
+    border-radius: 2px;
+    background: #D1D5DB;
+    transition: width 0.3s ease-out;
+}
+
+.link a:hover::after{
+    width: 100%;
+}
+
+
 .action{
     display: flex;
     align-items: center;
