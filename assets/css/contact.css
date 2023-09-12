@@ -100,6 +100,10 @@
     height: 24px;
 }
 
+.btnCopyMail img{
+    cursor: pointer;
+}
+
 /* footer */
 footer {
     padding: 24px 80px;
