@@ -134,6 +134,7 @@ footer p span{
 footer span{
     margin: 0 2px 0 2px;
 }
+
 @media (max-width:768px) {
     #contact {
         padding: 64px 0px;

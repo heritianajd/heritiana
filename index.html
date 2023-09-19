@@ -82,7 +82,7 @@
                     <div class="about-paragraph">
                         <p>Mon nom complet est RAKOTONDRATSIMBA Heritiana Jean Dinah, j'ai 19 ans et je suis Intégrateur de site web junior.</p>
                         <p>D'après l'obtention de mon diplôme baccalauréat en 2022, je me suis intéressé à la création de site web.</p>
-                        <p>J'ai commencer à intégrer des sites avec html et css, en utilisant des maquettes dans figma et visily, ainsi que des éditeurs de text comme Visual Stusio Code et Webstorm. J'ai déjà utilisé quelqeu fonctionnement de javascript assez simple comme cacher le mot de passe, un barre de menu respomsive.</p>
+                        <p>J'ai commencer à intégrer des sites avec html et css, en utilisant des maquettes dans figma et visily, ainsi que des éditeurs de text comme Visual Stusio Code et Webstorm. J'ai déjà utilisé quelqeu fonctionnement de javascript assez simple comme cacher le mot de passe, un barre de menu responsive.</p>
                         <p>Vous pouvez avoir besoin de moi et je vous promets que je ferai ce que je peux même si je ne fait que débuter.</p>
                     </div>
                 </div>
@@ -332,8 +332,13 @@
                 <div class="contact-email-phone">
                     <div class="email-phone">
                         <img src="assets/pictures/work/email-icone.png" alt="icone-email">
-                        <p>heritiana.rakotondratsimba@gmail.com</p>
-                        <button class="btnCopyMail"><img src="assets/pictures/work/copy-icone.png" alt=""></button>
+                        <p id="email">heritiana.rakotondratsimba@gmail.com</p>
+                        <button class="btnCopyMail" onclick="copyText('email')"><img class="copy-image" src="assets/pictures/work/copy-icone.png" alt=""></button>
+                    </div>
+                    <div class="email-phone">
+                        <img src="assets/pictures/work/email-icone.png" alt="icone-email">
+                        <p id="phoneNumber">65465165565615</p>
+                        <button class="btnCopyMail" onclick="copyText('phoneNumber')"><img class="copy-image" src="assets/pictures/work/copy-icone.png" alt=""></button>
                     </div>
                 </div>
                 <div class="contact-platforms">
