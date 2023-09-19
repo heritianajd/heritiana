@@ -20,5 +20,7 @@ function copyText(elementId) {
     document.execCommand('copy');
 
     document.body.removeChild(tempElement);
+
+    alert(`"${textToCopy}" a été copié dans le presse-papiers.`);
   }
 
