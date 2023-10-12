@@ -1,8 +1,33 @@
 
 #home{
-    background: var(--gray-dark-default, #030712);
+    background: var(--gray-dark-default, #202a42);
     padding: 166px 80px 96px 80px;
+    transition: 0.5s;
 }
+
+#home:hover{
+    animation: backGround 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backGround {
+    0%{
+        background: #030712;
+    }
+    20%{
+        background: #202a42
+    }
+    50%{
+        background: #030712;
+    }
+    70%{
+        background: #202a42
+    }
+    100%{
+        background: #202a42;
+    }
+}
+
 .home-container{
     display: flex;
     padding: 0 0 0 32px;

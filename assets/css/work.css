@@ -58,13 +58,13 @@
     font-size: 14px;
     line-height: 20px; 
     color: #D1D5DB;
-    transition: 0.3s;
+    transition: transform 0.2s ease-out;
     cursor: pointer;
 }
 
 .work-expertise:hover{
     /* padding: 4px 25px; */
-    transform: scaleX(1.1);
+    transform: scale( 1.2);
 }
 
 .work-photos {
@@ -99,7 +99,29 @@
     flex-direction: column;
     width: 50%;
     background-color: #1F2937;
+    transition: background-color 0.5s; 
 }
+.work-text{
+    /* background-color: #30363f; */
+    animation: background 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes background {
+    0%{
+        background-color: #1F2937;
+    }
+    40%{
+        background-color: #1a202b;
+    }
+    80%{
+        background-color: #293b50;
+    }
+    100%{
+        background-color: #1F2937;
+    }
+}
+
 
 .work-container-expertise{
     display: flex;
